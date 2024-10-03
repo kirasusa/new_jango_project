@@ -5,6 +5,6 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse('hie')
 def scp(request):
-    return HttpResponse('01')
+    return HttpResponse('11')
 def contact(request):
-    return HttpResponse('privet et')
+    return HttpResponse('privet')
